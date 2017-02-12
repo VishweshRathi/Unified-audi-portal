@@ -1,0 +1,196 @@
+<web-app> 
+	<listener>
+		<listener-class>Listener</listener-class>
+	</listener>
+
+
+ 	
+ 	
+ 	<servlet>
+   		 <servlet-name>Student_Signup</servlet-name>
+   		 <servlet-class>Student_Signup</servlet-class>
+  	</servlet>
+  
+  	<servlet-mapping>
+   		 <servlet-name>Student_Signup</servlet-name>
+   		 <url-pattern>/Student_Signup</url-pattern>
+  	</servlet-mapping>
+ 
+ 	
+ 	
+ 	
+ 	<servlet>
+     		<servlet-name>Student_Login</servlet-name>
+   		  <servlet-class>Student_Login</servlet-class>
+  	 </servlet>
+   
+  	 <servlet-mapping>
+  		   <servlet-name>Student_Login</servlet-name>
+   		  <url-pattern>/Student_Login</url-pattern>
+  	 </servlet-mapping>
+ 
+ 
+  	
+  	
+  	<servlet>
+  		    <servlet-name>Student_Profile</servlet-name>
+  		    <servlet-class>Student_Profile</servlet-class>
+  	  </servlet>
+    
+ 	   <servlet-mapping>
+ 		     <servlet-name>Student_Profile</servlet-name>
+ 		     <url-pattern>/Student_Profile</url-pattern>
+ 	   </servlet-mapping>
+
+
+  	 
+  	 
+  	 <servlet>
+  		    <servlet-name>Student_certi_info</servlet-name>
+  		    <servlet-class>Student_certi_info</servlet-class>
+  	  </servlet>
+    
+ 	   <servlet-mapping>
+ 		     <servlet-name>Student_certi_info</servlet-name>
+ 	 	    <url-pattern>/Student_certi_info</url-pattern>
+ 	   </servlet-mapping>
+ 	   
+  	 <servlet>
+  		    <servlet-name>Student_password_change</servlet-name>
+  		    <servlet-class>Student_password_change</servlet-class>
+  	  </servlet>
+    
+ 	   <servlet-mapping>
+ 		     <servlet-name>Student_password_change</servlet-name>
+ 	 	    <url-pattern>/Student_password_change</url-pattern>
+ 	   </servlet-mapping>
+ 	   
+
+	 <servlet>
+  		    <servlet-name>Student_Logout</servlet-name>
+  		    <servlet-class>Student_Logout</servlet-class>
+  	  </servlet>
+    
+ 	   <servlet-mapping>
+ 		     <servlet-name>Student_Logout</servlet-name>
+ 	 	    <url-pattern>/Student_Logout</url-pattern>
+ 	   </servlet-mapping>
+ 
+ 	 <servlet>
+   		    <servlet-name>Student_Record</servlet-name>
+   		    <servlet-class>Student_Record</servlet-class>
+   	  </servlet>
+     
+  	   <servlet-mapping>
+  		     <servlet-name>Student_Record</servlet-name>
+  	 	    <url-pattern>/Student_Record</url-pattern>
+ 	   </servlet-mapping>
+ 
+ 	<servlet>
+    		    <servlet-name>Admin_login</servlet-name>
+    		    <servlet-class>a_login</servlet-class>
+    	  </servlet>
+      
+   	   <servlet-mapping>
+   		     <servlet-name>Admin_login</servlet-name>
+   	 	    <url-pattern>/Admin_login</url-pattern>
+  	   </servlet-mapping>
+  	   
+  	   
+	<servlet>
+    		    <servlet-name>a_validate</servlet-name>
+    		    <servlet-class>a_validate</servlet-class>
+    	  </servlet>
+      
+   	   <servlet-mapping>
+   		     <servlet-name>a_validate</servlet-name>
+   	 	    <url-pattern>/a_validate</url-pattern>
+  	   </servlet-mapping> 
+  	   
+		<servlet>
+    		    <servlet-name>a_submitvalidate</servlet-name>
+    		    <servlet-class>a_submitvalidate</servlet-class>
+    	  </servlet>
+      
+   	   <servlet-mapping>
+   		     <servlet-name>a_submitvalidate</servlet-name>
+   	 	    <url-pattern>/a_submitvalidate</url-pattern>
+  	   </servlet-mapping>   	   
+  	   
+		<servlet>
+    		    <servlet-name>a_logout</servlet-name>
+    		    <servlet-class>a_logout</servlet-class>
+    	  </servlet>
+      
+   	   <servlet-mapping>
+   		     <servlet-name>a_logout</servlet-name>
+   	 	    <url-pattern>/a_logout</url-pattern>
+  	   </servlet-mapping>   	   
+  
+  <servlet>
+      		    <servlet-name>DisplayBlobServlet</servlet-name>
+      		    <servlet-class>DisplayBlobServlet</servlet-class>
+      	  </servlet>
+        
+     	   <servlet-mapping>
+     		     <servlet-name>DisplayBlobServlet</servlet-name>
+     	 	    <url-pattern>/DisplayBlobServlet</url-pattern>
+  	   </servlet-mapping> 
+  	   
+   <servlet>
+       		    <servlet-name>Student_Record1</servlet-name>
+       		    <servlet-class>Student_Record1</servlet-class>
+       	  </servlet>
+         
+      	   <servlet-mapping>
+      		     <servlet-name>Student_Record1</servlet-name>
+      	 	    <url-pattern>/Student_Record1</url-pattern>
+  	   </servlet-mapping> 
+  
+ 		 <servlet>
+        		    <servlet-name>a_report</servlet-name>
+        		    <servlet-class>a_report</servlet-class>
+        	  </servlet>
+          
+       	   <servlet-mapping>
+       		     <servlet-name>a_report</servlet-name>
+       	 	    <url-pattern>/a_report</url-pattern>
+   	   </servlet-mapping> 
+   	   
+	 <servlet>
+        <servlet-name>SendMail</servlet-name>
+        <servlet-class>SendMail</servlet-class>
+        	  </servlet>
+          
+       	   <servlet-mapping>
+       		     <servlet-name>SendMail</servlet-name>
+       	 	    <url-pattern>/SendMail</url-pattern>
+   	   </servlet-mapping>    
+   	   
+	 <servlet>
+        	<servlet-name>feedback</servlet-name>
+       		 <servlet-class>feedback</servlet-class>
+        	  </servlet>
+          
+       	   <servlet-mapping>
+       		     <servlet-name>feedback</servlet-name>
+       	 	    <url-pattern>/feedback</url-pattern>
+   	   </servlet-mapping>       	   
+   	   
+ 
+ 
+
+<context-param> 
+    <description>Location to store uploaded file</description> 
+    <param-name>file-upload</param-name> 
+    <param-value>
+         C:\Tomcat\webapps\a\Student data\
+     </param-value> 
+</context-param>
+	 
+	 <welcome-file-list>
+ 		   <welcome-file>index.html</welcome-file>
+ 	</welcome-file-list>
+
+
+</web-app>
